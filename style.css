@@ -1,0 +1,236 @@
+.ul1 li{
+	display:inline-block;
+}
+/*small*/
+@media(max-width: 768px){
+	.ul1{
+		text-align: left !important;
+		font-size:10px;color:white;
+		padding-left:0;
+	}
+	.ul1{padding-left:15px;}
+	.headh1{
+		margin-top:100px;
+		font-size:30px;
+		color:white;
+		text-align: center;
+	}
+	.headbtn{
+		padding:10px;
+		color:white;
+		display: block;
+		text-decoration: none !important;
+		width:150px;
+		margin:0 auto;
+		text-align: center;
+		position:relative;top:30px;
+		border:3px solid white;
+		border-radius: 4px;
+		transition: color 0.3s,background-color 0.3s;
+	}
+	.gbox{
+		margin-bottom:25px;
+	}
+	.animatebox p{font-size:15px;width:280px;}
+	.aesthetic{top:1200px !important;}
+	.aesthetic h1{
+		width:350px;
+		text-align: center;
+		font-size: 25px;
+		margin:0 auto 30px auto;
+	}
+	.aesthetic p{
+		position: relative;
+		width:350px;
+		text-align: center;
+		font-size: 15px;
+		margin:0 auto;
+	}
+
+}
+/*mid*/
+@media(min-width: 768px){
+	.ul1{
+		font-size:20px;
+	}
+	.ul2 li{display: inline-block;}
+	#mycollapse{text-align: right;}
+	.headh1{
+		margin-top:100px;
+		font-size:40px;
+		color:white;
+		text-align: left;
+		margin-left:50px;
+	}
+	.headbtn{
+		padding:15px;
+		color:white;
+		text-decoration: none !important;
+		text-align: left;
+		margin-left:50px;
+		position:relative;top:50px;
+		border:3px solid white;
+		border-radius: 5px;
+		transition: color 0.3s,background-color 0.3s;
+	}
+	.animateboxh{
+		height:420px !important;
+		position: relative;
+		top:-50px;
+		z-index:1;
+		box-shadow:0px 0 30px 10px rgba(0,0,0,0.25);
+	}
+	.animatebox p{font-size:15px;width:200px;}
+	.aesthetic h1{
+		padding: 0 !important;
+	}
+	.aesthetic h1{
+		width:750px;
+		text-align: center;
+		font-size: 36px;
+		margin:0 auto 30px auto;
+	}
+	.aesthetic p{
+		width:750px;
+		text-align: center;
+		font-size: 20px;
+		margin:0 auto;
+	}
+}
+/*large*/
+@media(min-width: 992px){
+	.col-md-12{
+		font-size:30px;
+	}
+	.ul2 li{display: inline-block;}
+
+	#mycollapse{text-align: right;}
+	.headh1{
+		color:whitt:50px;
+	}e;
+		text-align: left;
+		margin-lef
+	.headh1{
+		margin-top:100px;
+		font-size:60px;
+	}
+	.headbtn{
+		padding:15px;
+		color:white;
+		text-decoration: none !important;
+		text-align: left;
+		margin-left:50px;
+		position:relative;top:50px;
+		border:3px solid white;
+		border-radius: 5px;
+		transition: color 0.3s,background-color 0.3s;
+	}
+	.animateboxh{
+		height:420px !important;
+		position: relative;
+		top:-50px;
+		z-index:1;
+		box-shadow:0px 0 30px 10px rgba(0,0,0,0.25);
+	}
+	.animatebox p{font-size:17px;width:300px;}
+	.aesthetic{top:0;}
+	.aesthetic h1{
+		width:750px;
+		text-align: center;
+		font-size: 36px;
+		margin:0 auto 30px auto;
+	}
+	.aesthetic p{
+		width:750px;
+		text-align: center;
+		font-size: 20px;
+		margin:0 auto;
+	}
+}
+
+
+
+
+.ul1 li a{color:white !important;}
+.btn1{
+	background-color:red !important;
+	margin-top:-10px;
+}
+
+#page{
+	background-color: #213C82;
+	width:100%;
+	height:700px;
+}
+.headbtn:hover{
+	text-decoration: none  !important;
+	color:blue !important;
+	background-color: white;
+}
+.headbtn:visited{text-decoration: none;color:white;}
+.greenbox{
+	position:relative;
+	top:260px;height:350px;
+
+}
+.gbox{padding:0;}
+.animatebox{
+	width:100%;
+	height:350px;
+	background-color: #63C7B2
+}
+.animatebox b{
+	color:white;
+	position: relative;
+	top:140px;
+	font-size:20px;
+	text-align: center;
+	display: block;
+	width:200px;
+	margin: 0 auto;
+}
+.animatebox p{
+	margin:0 auto;
+	position:relative;
+	top:140px;
+	text-align: center;
+	color:white;
+	font-family: "Droid Sans", Arial, sans-serif;
+	opacity: 0.9;
+
+}
+.boxbtn{
+	padding:8px 15px;
+	display: block;
+	top:170px;
+	width:140px;
+	margin-left:auto !important;
+	margin-right:auto;
+	text-align: center !important;
+}
+.boxbtn:hover{
+	color:#63C7B2 !important;
+}
+.aesthetic{position: relative;top:400px;}
+
+
+.four{position:relative;top:100px;}
+.fourbox{height:300px;}
+.icon{
+	display: block;
+	width:90px;
+	height:90px;
+	border:1px solid gray;
+	border-radius: 45px;
+	margin:0 auto;
+}
+.icon i{
+	text-align: center;
+	font-size:100px;
+	position: relative;
+	top:-7px;left:18px;
+}
+.fourbox p{text-align: center;width:240px;
+	font-size:16px;color:gray;
+}
+.fourbox h4{text-align: center;margin:30px 0;}
